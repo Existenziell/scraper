@@ -1,0 +1,18 @@
+{
+  "name": "minted4ukraine-scraper",
+  "description": "Scraping for Peace!",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Christof Bauer <bauer.christof@gmail.com> (http://christof.digital/)",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^16.0.0",
+    "https": "^1.0.0",
+    "mongodb": "^4.4.0",
+    "node-cron": "^3.0.0"
+  }
+}
